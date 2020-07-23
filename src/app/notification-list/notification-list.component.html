@@ -1,0 +1,8 @@
+<h2>Notification Lists</h2>
+<ul class="notifications">
+  <li *ngFor="let notification of notifications">
+    <a>
+      <span class="badge">{{notification.id}}</span> {{notification.title}}
+    </a>
+  </li>
+</ul>
